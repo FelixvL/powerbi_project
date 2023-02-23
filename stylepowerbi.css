@@ -1,0 +1,59 @@
+div.projectindex{
+    background-color: azure;
+    padding:20px;
+    border: 2px solid orange;
+    display: inline-block;
+    border-radius: 15px;
+
+}
+div.projectindex a{
+    color:red;
+    text-decoration: none;
+} 
+div.fileproject{
+    background-color: azure;
+    padding:10px;
+    border: 2px solid orange;
+    display: inline-block;
+    border-radius: 15px;
+
+}
+div.fileproject a{
+    color:darkblue;
+    text-decoration: none;
+} 
+div.titleproject{
+    font-size: 40px;
+}
+div.questionproject{
+    margin-left: 35px;
+    margin-right: 35px;
+    color:darkred;
+    background-color: rgb(255, 225, 225);
+    padding:10px;
+    border-bottom: 2px solid brown;
+}
+div.questionprojectsolved{
+    margin-left: 35px;
+    margin-right: 35px;
+    color:rgb(0, 52, 0);
+    background-color: lightcyan;
+    padding:10px;
+    border-bottom: 2px solid lightseagreen;
+}
+div.linkproject{
+    background-color: azure;
+    padding:10px;
+    border: 2px solid orange;
+    border-radius: 15px;
+    margin:20px;
+
+}
+div.iframeproject{
+    background-color: azure;
+    padding:10px;
+    border: 2px solid orange;
+    border-radius: 15px;
+    display: inline-block;
+    margin:20px;
+}
