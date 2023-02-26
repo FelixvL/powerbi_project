@@ -57,3 +57,20 @@ div.iframeproject{
     display: inline-block;
     margin:20px;
 }
+div.grafiekje{
+    width:225px;
+    height: 175px;
+    margin-top:20px;
+    background-color: azure;
+    padding:10px;
+    border: 2px solid orange;
+    border-radius: 15px;
+    display: inline-block;
+ 
+}
+div.grafiekje img{
+    height: 120px;
+}
+  .detekstch {
+    color:green;
+  }
