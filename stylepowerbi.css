@@ -71,6 +71,14 @@ div.grafiekje{
 div.grafiekje img{
     height: 120px;
 }
-  .detekstch {
-    color:green;
-  }
+.detekstch {
+color:green;
+}
+div.vbafk{
+    width:112px;
+    background-color: azure;
+    padding:5px;
+    border: 2px solid orange;
+    border-radius: 4px;
+    display: inline-block;   
+}

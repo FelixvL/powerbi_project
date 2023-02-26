@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>PBI-ED</title>
     <link rel="stylesheet" href="../stylepowerbi.css">
 </head>
 <body>
@@ -15,16 +15,143 @@
 <div class="fileproject"><a href="eredivisie21naar22.pbix">powerBI bestand</a></div>
 <div class="titleproject">Eredivisie</div>
 <br>
+<div class="questionprojectsolved">
+    ED001 - Ik wil zien op welk TIME op de dag de meeste FTHG (fulltime thuisdoelpunten) zijn gescoord. (SOLVED Page1)
+</div>
 <div class="questionproject">
-    1ED001 - Ik wil zien op welk TIME op de dag de meeste FTHG (fulltime thuisdoelpunten) zijn gescoord.
+    ED002 - Ik wil een lijngrafiek met elke week het aantal doelpunten van de Thuisclub (FTHG) als Ajax de Uitclub (AWAYTEAM) is.
 </div>
 
-<!--
-<div class="linkproject">na
-<br><a href="#">link</a>
+
+
+<br><br><br><br><br><br>
+<div class=vbafk  title="League Division"><b>Div</b></div>
+<div class=vbafk  title="Match Date (dd/mm/yy)"><b>Date</b></div>
+<div class=vbafk  title="Time of match kick off"><b>Time</b></div>
+<div class=vbafk  title="Home Team"><b>HomeTeam</b></div>
+<div class=vbafk  title="Away Team"><b>AwayTeam</b></div>
+<div class=vbafk  title="Full Time Home Team Goals"><b>FTHG and HG</b></div>
+<div class=vbafk  title="Full Time Away Team Goals"><b>FTAG and AG</b></div>
+<div class=vbafk  title="Full Time Result (H=Home Win, D=Draw, A=Away Win)"><b>FTR and Res</b></div>
+<div class=vbafk  title="Half Time Home Team Goals"><b>HTHG</b></div>
+<div class=vbafk  title="Half Time Away Team Goals"><b>HTAG</b></div>
+<div class=vbafk  title="Half Time Result (H=Home Win, D=Draw, A=Away Win)"><b>HTR</b></div>
+<div class=vbafk  title="Crowd Attendance"><b>Attendance</b></div>
+<div class=vbafk  title="Match Referee"><b>Referee</b></div>
+<div class=vbafk  title="Home Team Shots"><b>HS</b></div>
+<div class=vbafk  title="Away Team Shots"><b>AS</b></div>
+<div class=vbafk  title="Home Team Shots on Target"><b>HST</b></div>
+<div class=vbafk  title="Away Team Shots on Target"><b>AST</b></div>
+<div class=vbafk  title="Home Team Hit Woodwork"><b>HHW</b></div>
+<div class=vbafk  title="Away Team Hit Woodwork"><b>AHW</b></div>
+<div class=vbafk  title="Home Team Corners"><b>HC</b></div>
+<div class=vbafk  title="Away Team Corners"><b>AC</b></div>
+<div class=vbafk  title="Home Team Fouls Committed"><b>HF</b></div>
+<div class=vbafk  title="Away Team Fouls Committed"><b>AF</b></div>
+<div class=vbafk  title="Home Team Free Kicks Conceded"><b>HFKC</b></div>
+<div class=vbafk  title="Away Team Free Kicks Conceded"><b>AFKC</b></div>
+<div class=vbafk  title="Home Team Offsides"><b>HO</b></div>
+<div class=vbafk  title="Away Team Offsides"><b>AO</b></div>
+<div class=vbafk  title="Home Team Yellow Cards"><b>HY</b></div>
+<div class=vbafk  title="Away Team Yellow Cards"><b>AY</b></div>
+<div class=vbafk  title="Home Team Red Cards"><b>HR</b></div>
+<div class=vbafk  title="Away Team Red Cards"><b>AR</b></div>
+<div class=vbafk  title="Home Team Bookings Points (10"><b>HBP</b></div>
+<div class=vbafk  title="Away Team Bookings Points (10"><b>ABP</b></div>
+<div class=vbafk  title="Bet365 home win odds"><b>B365H</b></div>
+<div class=vbafk  title="Bet365 draw odds"><b>B365D</b></div>
+<div class=vbafk  title="Bet365 away win odds"><b>B365A</b></div>
+<div class=vbafk  title="Blue Square home win odds"><b>BSH</b></div>
+<div class=vbafk  title="Blue Square draw odds"><b>BSD</b></div>
+<div class=vbafk  title="Blue Square away win odds"><b>BSA</b></div>
+<div class=vbafk  title="Bet&Win home win odds"><b>BWH</b></div>
+<div class=vbafk  title="Bet&Win draw odds"><b>BWD</b></div>
+<div class=vbafk  title="Bet&Win away win odds"><b>BWA</b></div>
+<div class=vbafk  title="Gamebookers home win odds"><b>GBH</b></div>
+<div class=vbafk  title="Gamebookers draw odds"><b>GBD</b></div>
+<div class=vbafk  title="Gamebookers away win odds"><b>GBA</b></div>
+<div class=vbafk  title="Interwetten home win odds"><b>IWH</b></div>
+<div class=vbafk  title="Interwetten draw odds"><b>IWD</b></div>
+<div class=vbafk  title="Interwetten away win odds"><b>IWA</b></div>
+<div class=vbafk  title="Ladbrokes home win odds"><b>LBH</b></div>
+<div class=vbafk  title="Ladbrokes draw odds"><b>LBD</b></div>
+<div class=vbafk  title="Ladbrokes away win odds"><b>LBA</b></div>
+<div class=vbafk  title="Pinnacle home win odds"><b>PSH and PH</b></div>
+<div class=vbafk  title="Pinnacle draw odds"><b>PSD and PD</b></div>
+<div class=vbafk  title="Pinnacle away win odds"><b>PSA and PA</b></div>
+<div class=vbafk  title="Sporting Odds home win odds"><b>SOH</b></div>
+<div class=vbafk  title="Sporting Odds draw odds"><b>SOD</b></div>
+<div class=vbafk  title="Sporting Odds away win odds"><b>SOA</b></div>
+<div class=vbafk  title="Sportingbet home win odds"><b>SBH</b></div>
+<div class=vbafk  title="Sportingbet draw odds"><b>SBD</b></div>
+<div class=vbafk  title="Sportingbet away win odds"><b>SBA</b></div>
+<div class=vbafk  title="Stan James home win odds"><b>SJH</b></div>
+<div class=vbafk  title="Stan James draw odds"><b>SJD</b></div>
+<div class=vbafk  title="Stan James away win odds"><b>SJA</b></div>
+<div class=vbafk  title="Stanleybet home win odds"><b>SYH</b></div>
+<div class=vbafk  title="Stanleybet draw odds"><b>SYD</b></div>
+<div class=vbafk  title="Stanleybet away win odds"><b>SYA</b></div>
+<div class=vbafk  title="VC Bet home win odds"><b>VCH</b></div>
+<div class=vbafk  title="VC Bet draw odds"><b>VCD</b></div>
+<div class=vbafk  title="VC Bet away win odds"><b>VCA</b></div>
+<div class=vbafk  title="William Hill home win odds"><b>WHH</b></div>
+<div class=vbafk  title="William Hill draw odds"><b>WHD</b></div>
+<div class=vbafk  title="William Hill away win odds"><b>WHA</b></div>
+<div class=vbafk  title="Number of BetBrain bookmakers used to calculate match odds averages and maximums"><b>Bb1X2</b></div>
+<div class=vbafk  title="Betbrain maximum home win odds"><b>BbMxH</b></div>
+<div class=vbafk  title="Betbrain average home win odds"><b>BbAvH</b></div>
+<div class=vbafk  title="Betbrain maximum draw odds"><b>BbMxD</b></div>
+<div class=vbafk  title="Betbrain average draw win odds"><b>BbAvD</b></div>
+<div class=vbafk  title="Betbrain maximum away win odds"><b>BbMxA</b></div>
+<div class=vbafk  title="Betbrain average away win odds"><b>BbAvA</b></div>
+<div class=vbafk  title="Market maximum home win odds"><b>MaxH</b></div>
+<div class=vbafk  title="Market maximum draw win odds"><b>MaxD</b></div>
+<div class=vbafk  title="Market maximum away win odds"><b>MaxA</b></div>
+<div class=vbafk  title="Market average home win odds"><b>AvgH</b></div>
+<div class=vbafk  title="Market average draw win odds"><b>AvgD</b></div>
+<div class=vbafk  title="Market average away win odds"><b>AvgA</b></div>
+<div class=vbafk  title="Number of BetBrain bookmakers used to calculate over/under 2.5 goals (total goals) averages and maximums"><b>BbOU</b></div>
+<div class=vbafk  title="Betbrain maximum over 2.5 goals"><b>BbMx>2.5</b></div>
+<div class=vbafk  title="Betbrain average over 2.5 goals"><b>BbAv>2.5</b></div>
+<div class=vbafk  title="Betbrain maximum under 2.5 goals"><b>BbMx<2.5</b></div>
+<div class=vbafk  title="Betbrain average under 2.5 goals"><b>BbAv<2.5</b></div>
+<div class=vbafk  title="Gamebookers over 2.5 goals"><b>GB>2.5</b></div>
+<div class=vbafk  title="Gamebookers under 2.5 goals"><b>GB<2.5</b></div>
+<div class=vbafk  title="Bet365 over 2.5 goals"><b>B365>2.5</b></div>
+<div class=vbafk  title="Bet365 under 2.5 goals"><b>B365<2.5</b></div>
+<div class=vbafk  title="Pinnacle over 2.5 goals"><b>P>2.5</b></div>
+<div class=vbafk  title="Pinnacle under 2.5 goals"><b>P<2.5</b></div>
+<div class=vbafk  title="Market maximum over 2.5 goals"><b>Max>2.5</b></div>
+<div class=vbafk  title="Market maximum under 2.5 goals"><b>Max<2.5</b></div>
+<div class=vbafk  title="Market average over 2.5 goals"><b>Avg>2.5</b></div>
+<div class=vbafk  title="Market average under 2.5 goals"><b>Avg<2.5</b></div>
+<div class=vbafk  title="Number of BetBrain bookmakers used to Asian handicap averages and maximums"><b>BbAH</b></div>
+<div class=vbafk  title="Betbrain size of handicap (home team)"><b>BbAHh</b></div>
+<div class=vbafk  title="Market size of handicap (home team) (since 2019/2020)"><b>AHh</b></div>
+<div class=vbafk  title="Betbrain maximum Asian handicap home team odds"><b>BbMxAHH</b></div>
+<div class=vbafk  title="Betbrain average Asian handicap home team odds"><b>BbAvAHH</b></div>
+<div class=vbafk  title="Betbrain maximum Asian handicap away team odds"><b>BbMxAHA</b></div>
+<div class=vbafk  title="Betbrain average Asian handicap away team odds"><b>BbAvAHA</b></div>
+<div class=vbafk  title="Gamebookers Asian handicap home team odds"><b>GBAHH</b></div>
+<div class=vbafk  title="Gamebookers Asian handicap away team odds"><b>GBAHA</b></div>
+<div class=vbafk  title="Gamebookers size of handicap (home team)"><b>GBAH</b></div>
+<div class=vbafk  title="Ladbrokes Asian handicap home team odds"><b>LBAHH</b></div>
+<div class=vbafk  title="Ladbrokes Asian handicap away team odds"><b>LBAHA</b></div>
+<div class=vbafk  title="Ladbrokes size of handicap (home team)"><b>LBAH</b></div>
+<div class=vbafk  title="Bet365 Asian handicap home team odds"><b>B365AHH</b></div>
+<div class=vbafk  title="Bet365 Asian handicap away team odds"><b>B365AHA</b></div>
+<div class=vbafk  title="Bet365 size of handicap (home team)"><b>B365AH</b></div>
+<div class=vbafk  title="Pinnacle Asian handicap home team odds"><b>PAHH</b></div>
+<div class=vbafk  title="Pinnacle Asian handicap away team odds"><b>PAHA</b></div>
+<div class=vbafk  title="Market maximum Asian handicap home team odds"><b>MaxAHH</b></div>
+<div class=vbafk  title="Market maximum Asian handicap away team odds   "><b>MaxAHA</b></div>
+<div class=vbafk  title="Market average Asian handicap home team odds"><b>AvgAHH</b></div>
+<div class=vbafk  title="Market average Asian handicap away team odds"><b>AvgAHA</b></div>
+<div class="linkproject">
+<br><a href="https://app.powerbi.com/view?r=eyJrIjoiZTU4YzFiOTEtMzI4OS00ZTNkLTk4OTItM2FjMTMwOTc3NjhkIiwidCI6IjgxZGJmMzFjLWQ5MTgtNDQ3Yi05YTM1LTBlZTNjN2I1Yjg4ZCIsImMiOjl9">link</a>
 </div>
 <div class="iframeproject">
-<iframe title="superbowl_poging1" width="1140" height="541.25" src="https://app.powerbi.com/reportEmbed?reportId=a674b1ea-8fde-4237-8a07-860e4438ddb4&autoAuth=true&ctid=81dbf31c-d918-447b-9a35-0ee3c7b5b88d" frameborder="0" allowFullScreen="true"></iframe>
+<iframe title="eredivisie" width="1140" height="541.25" src="https://app.powerbi.com/view?r=eyJrIjoiZTU4YzFiOTEtMzI4OS00ZTNkLTk4OTItM2FjMTMwOTc3NjhkIiwidCI6IjgxZGJmMzFjLWQ5MTgtNDQ3Yi05YTM1LTBlZTNjN2I1Yjg4ZCIsImMiOjl9" frameborder="0" allowFullScreen="true"></iframe>
 </div>
 -->
 </body>
